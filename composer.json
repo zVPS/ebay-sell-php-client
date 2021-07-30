@@ -1,0 +1,80 @@
+{
+    "name": "zvps/ebay-sell-php-client",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kevin Andrews",
+            "email": "kjandrews0@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/zvps/ebay-sell-account-php-client.git"
+        },
+	{
+            "type": "git",
+            "url": "https://github.com/zvps/ebay-sell-analytics-php-client.git"
+        },
+	{
+            "type": "git",
+            "url": "https://github.com/zvps/ebay-sell-compliance-php-client.git"
+        },
+	{
+            "type": "git",
+            "url": "https://github.com/zvps/ebay-sell-feed-php-client.git"
+        },
+	{
+            "type": "git",
+            "url": "https://github.com/zvps/ebay-sell-finances-php-client.git"
+        },
+	{
+            "type": "git",
+            "url": "https://github.com/zvps/ebay-sell-fulfillment-php-client.git"
+        },
+	{
+            "type": "git",
+            "url": "https://github.com/zvps/ebay-sell-inventory-php-client.git"
+        },
+	{
+            "type": "git",
+            "url": "https://github.com/zvps/ebay-sell-listing-php-client.git"
+        },
+	{
+            "type": "git",
+            "url": "https://github.com/zvps/ebay-sell-logistics-php-client.git"
+        },
+	{
+            "type": "git",
+            "url": "https://github.com/zvps/ebay-sell-marketing-php-client.git"
+        },
+	{
+            "type": "git",
+            "url": "https://github.com/zvps/ebay-sell-metadata-php-client.git"
+        },
+	{
+            "type": "git",
+            "url": "https://github.com/zvps/ebay-sell-negotiation-php-client.git"
+        },
+	{
+            "type": "git",
+            "url": "https://github.com/zvps/ebay-sell-recommendation-php-client.git"
+        }
+    ],
+    "require": {
+        "zvps/ebay-sell-account-php-client": "dev-main",
+        "zvps/ebay-sell-analytics-php-client": "dev-main",
+        "zvps/ebay-sell-compliance-php-client": "dev-main",
+        "zvps/ebay-sell-feed-php-client": "dev-main",
+        "zvps/ebay-sell-finances-php-client": "dev-main",
+        "zvps/ebay-sell-fulfillment-php-client": "dev-main",
+        "zvps/ebay-sell-inventory-php-client": "dev-main",
+        "zvps/ebay-sell-listing-php-client": "dev-main",
+        "zvps/ebay-sell-logistics-php-client": "dev-main",
+        "zvps/ebay-sell-marketing-php-client": "dev-main",
+        "zvps/ebay-sell-metadata-php-client": "dev-main",
+        "zvps/ebay-sell-negotiation-php-client": "dev-main",
+        "zvps/ebay-sell-recommendation-php-client": "dev-main"
+    },
+    "minimum-stability": "dev"
+}
