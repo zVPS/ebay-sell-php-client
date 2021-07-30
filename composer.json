@@ -1,10 +1,12 @@
 {
     "name": "zvps/ebay-sell-php-client",
+    "version": "5.0.0",
     "type": "library",
+    "license": "unlicense",
     "authors": [
         {
             "name": "Kevin Andrews",
-            "email": "kjandrews0@gmail.com"
+            "email": "kevin@zvps.uk"
         }
     ],
     "repositories": [
@@ -62,6 +64,10 @@
         }
     ],
     "require": {
+	"php": ">=5.6",
+	"ext-curl": "*",
+	"ext-json": "*",
+	"ext-mbstring": "*",
         "zvps/ebay-sell-account-php-client": "dev-main",
         "zvps/ebay-sell-analytics-php-client": "dev-main",
         "zvps/ebay-sell-compliance-php-client": "dev-main",
